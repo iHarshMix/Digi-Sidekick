@@ -1,0 +1,10 @@
+.social{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.google{
+    height: 50px;
+    color: white;
+}
