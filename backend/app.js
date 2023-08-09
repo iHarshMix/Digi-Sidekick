@@ -36,7 +36,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 
-mongoose.connect("mongodb+srv://iharshmix:iharshmix@cluster0.qrqrard.mongodb.net/users");
+mongoose.connect("mongodb+srv://iharshmix:<password>.qrqrard.mongodb.net/users");
 
 
 const userSchema = new mongoose.Schema({
